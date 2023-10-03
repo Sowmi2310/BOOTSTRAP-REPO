@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   position: sticky;
+    top:0;
+}
+
+.nav-link.active:hover
+{
+    color:rgb(17, 145, 28);
+}
+.nav-link:hover{
+color: rgb(17, 145, 28);
+}
+#home{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 6%;
+    margin-right: 25px;
+    border: 8px double rgb(10, 32, 94);
+    box-shadow: 5px 7px 25px rgba(0,0,0.5,1);
+    transition: 0.5s;
+    background: linear-gradient(45deg,rgb(105, 68, 68),rgb(96, 74, 124));
+}
+.picture:hover{
+    /* transition: 0.5s; */
+    transform: scale(1.2);
+}
+.name{
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(175,172,172);
+    animation: text 3s 1;
+    text-shadow: 2px 4px 5px black;
+}
+.name:hover{
+    transform:scale(1.1);
+    color: rgb(238, 234, 227);
+}
+.name2{
+
+    font-size: 55px;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    color:rgb(175, 172, 172);
+    text-shadow:2px 5px 5px black ;
+}
+.name2:hover{
+    transform:scale(1.1);
+    color: rgb(238, 234, 227);
+}
+body{
+    background: linear-gradient(90deg, rgb(41, 40, 40),rgb(10, 97, 17));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about_content{
+    margin-top: 10%;
+    padding: 20px;
+}
+.about_me{
+    color: beige;
+    margin-top: 5%;
+}
+.card{
+    background:linear-gradient(45deg,rgb(116, 36, 36),rgb(99, 26, 99));
+    border:3px solid rgb(39, 13, 99);
+    box-shadow: 0px 4px 4px 5px rgb(22, 21, 21);
+    text-align: center;
+    text-shadow: 0px 4px 4px 5px rgb(22, 21, 21);
+}
+.pic{
+    height: 150px;
+    width:150px;
+    border:5px double rgb(58, 58, 117);
+    border-radius: 40% 0% 40% 0%;
+}
+.pic:hover{
+    /* transition: 0.5s; */
+    transform: scale(1.2);
+    background:linear-gradient(45deg,rgb(41, 145, 194),rgba(173, 40, 167, 0.39)) ;
+}
+.text-center{
+    color: beige;
+}
+#skills{
+    margin: 30%;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.my{
+    margin: 40px;
+    color: rgb(41, 170, 196);
+}
+.sum{
+    color: rgb(182, 18, 114);
+}
+.sname{
+color: beige;
+}
+summary{
+    color: rgb(11, 12, 12);
+}
+summary:hover{
+    color: blanchedalmond;
+}
+ .map{
+   font-size: xx-large;
+    color: rgb(19, 17, 17);
+} 
+@media screen and (max-width:200px){
+#contact{
+    margin-top: 40%;
+}
+iframe{
+    height: 600px;
+    width:300px
+}
+}
